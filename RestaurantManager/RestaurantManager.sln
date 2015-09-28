@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManager.UniversalWindows", "RestaurantManager.UniversalWindows\RestaurantManager.UniversalWindows.csproj", "{FA8E33AA-81EC-4512-B624-1DA51075EAED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA8E33AA-81EC-4512-B624-1DA51075EAED}.Debug|ARM.ActiveCfg = Debug|ARM
+		{FA8E33AA-81EC-4512-B624-1DA51075EAED}.Debug|ARM.Build.0 = Debug|ARM
+		{FA8E33AA-81EC-4512-B624-1DA51075EAED}.Debug|ARM.Deploy.0 = Debug|ARM
+		{FA8E33AA-81EC-4512-B624-1DA51075EAED}.Debug|x64.ActiveCfg = Debug|x64
+		{FA8E33AA-81EC-4512-B624-1DA51075EAED}.Debug|x64.Build.0 = Debug|x64
+		{FA8E33AA-81EC-4512-B624-1DA51075EAED}.Debug|x64.Deploy.0 = Debug|x64
+		{FA8E33AA-81EC-4512-B624-1DA51075EAED}.Debug|x86.ActiveCfg = Debug|x86
+		{FA8E33AA-81EC-4512-B624-1DA51075EAED}.Debug|x86.Build.0 = Debug|x86
+		{FA8E33AA-81EC-4512-B624-1DA51075EAED}.Debug|x86.Deploy.0 = Debug|x86
+		{FA8E33AA-81EC-4512-B624-1DA51075EAED}.Release|ARM.ActiveCfg = Release|ARM
+		{FA8E33AA-81EC-4512-B624-1DA51075EAED}.Release|ARM.Build.0 = Release|ARM
+		{FA8E33AA-81EC-4512-B624-1DA51075EAED}.Release|ARM.Deploy.0 = Release|ARM
+		{FA8E33AA-81EC-4512-B624-1DA51075EAED}.Release|x64.ActiveCfg = Release|x64
+		{FA8E33AA-81EC-4512-B624-1DA51075EAED}.Release|x64.Build.0 = Release|x64
+		{FA8E33AA-81EC-4512-B624-1DA51075EAED}.Release|x64.Deploy.0 = Release|x64
+		{FA8E33AA-81EC-4512-B624-1DA51075EAED}.Release|x86.ActiveCfg = Release|x86
+		{FA8E33AA-81EC-4512-B624-1DA51075EAED}.Release|x86.Build.0 = Release|x86
+		{FA8E33AA-81EC-4512-B624-1DA51075EAED}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
