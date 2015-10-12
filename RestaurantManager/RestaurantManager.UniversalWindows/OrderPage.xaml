@@ -7,6 +7,12 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
+    <Page.TopAppBar>
+        <AppBar>
+           <AppBarButton Icon="Home" Label="Home" Click="BackToHome_Click"/>
+        </AppBar>
+    </Page.TopAppBar>
+    
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
         <Grid.RowDefinitions>
@@ -25,8 +31,11 @@
 
         <TextBlock Grid.Row="1" Grid.Column="1"  Text="Special Requests:" />
         <TextBlock Grid.Row="1" Grid.Column="2"  Text="Order Items:" />
-        <TextBlock Grid.Row="4" Grid.Column="0"  Text="**Add to Orders**" HorizontalAlignment="Center" VerticalAlignment="Center"  />
-        <TextBlock Grid.Row="4" Grid.Column="1"  Text="**Submit Orders**" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="2"  />
+        <Button x:Name="btnAddToOrders" Grid.Row="4" Grid.Column="0"  Content="Add to Orders" HorizontalAlignment="Center" VerticalAlignment="Center" Click="AddToOrders_Click"  />
+        <Button x:Name="btnSubmitOrders" Grid.Row="4" Grid.Column="1"  Content="Submit Orders" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="2" Click="SubmitOrders_Click"  />
+        <ListView x:Name="listView" Grid.Column="2" HorizontalAlignment="Stretch"  Grid.Row="2" Grid.RowSpan="2" VerticalAlignment="Stretch" Width="Auto" Height="Auto" Background="#FF6265AA"/>
+        <ListView x:Name="listView1" HorizontalAlignment="Stretch" Height="Auto" Grid.Row="1" Grid.RowSpan="3" VerticalAlignment="Stretch" Width="Auto" Background="#FF1DBF1D"/>
 
     </Grid>
+    
 </Page>
