@@ -23,7 +23,8 @@
 
 
         <Button x:Name="btnClearAllOrders"  Grid.Row="1" Grid.Column="0"  Content="Clear All Orders" HorizontalAlignment="Center" VerticalAlignment="Center"  />
-        <GridView x:Name="gridView"  Grid.Row="0" Grid.Column="0" HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" Width="Auto" Height="Auto" Background="#FFB42020"  />
+        <GridView x:Name="gridView"  Grid.Row="0" Grid.Column="0" HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" Width="Auto" Height="Auto" Background="#FF490909"
+                ItemsSource="{Binding Path=OrderItems,  Source={StaticResource DataManager}}"  />
 
     </Grid>
 </Page>
